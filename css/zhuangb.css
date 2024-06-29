@@ -1,0 +1,52 @@
+.data{
+    background-image: url(../img/cp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55rem;
+    height: 120rem;
+}
+.name{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: auto;
+    padding-left: 14.5rem;
+    padding-top: 25rem;
+    text-align: left;
+}
+.time{
+    font-size: 2rem;
+    /*font-weight: bold;*/
+    margin: auto;
+    font-family: 微软雅黑;
+    padding-left: 25rem;
+    padding-top: 0.2rem;
+    text-align: left;
+    color: darkgray;
+}
+.complete_num{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: auto;
+    padding-left: 4.5rem;
+    padding-top: 29rem;
+    text-align: left;
+}
+.refuse_num1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: auto;
+    padding-left: 19.5rem;
+    text-align: left;
+}
+.refuse_num2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: auto;
+    padding-left: 4.5rem;
+    padding-top: 10rem;
+    text-align: left;
+}

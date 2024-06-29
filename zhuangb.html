@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>装B</title>
+    <!--不同屏幕尺寸根字体设置-->
+    <script src="./js/base.js"></script>
+    <link rel="stylesheet" href="css/zhuangb.css"/>
+</head>
+<body>
+    <div id="app">
+        <div class="data" >
+            <p class="name">{{name}}</p>
+            <div class="time">{{time}}</div>
+            <div class="complete_num">{{complete_num}}
+                <a class="refuse_num1">{{refuse_num1}}</a>
+            </div>
+            <div class="refuse_num2">{{refuse_num2}}</div>
+      </div>
+      <div>
+          <h1>名字：<input style="width: 340px;height: 50px" v-model="name"/></h1>
+          <h1>时间：<input  style="width: 340px;height: 50px" v-model="time"/></h1>
+          <h1>完成单：<input  style="width: 340px;height: 50px" v-model="complete_num"/></h1>
+          <h1>拒单量：<input  style="width: 340px;height: 50px" v-model="refuse_num1"/></h1>
+          <h1>剔除单量：<input  style="width: 340px;height: 50px" v-model="refuse_num2"/></h1>
+    </div>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="./js/vue.js"></script>
+    <script>
+        new Vue({
+            el:"#app",
+            data(){
+                return{
+                    name:'',
+                    time2:'',
+                    complete_num:'',
+                    refuse_num1:'',
+                    refuse_num2:''
+                }
+            }
+        })
+    </script>
+</body>
+</html>
